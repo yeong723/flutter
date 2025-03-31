@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hby/input_page.dart';
 import 'package:hby/layout_page.dart';
 import 'package:hby/popup_page.dart';
 import 'package:hby/setting_page.dart';
@@ -28,7 +29,8 @@ class MyApp extends StatelessWidget {
         '/popup': (context) => const PopupPage(),
         '/flex': (context) => const FlexPage(),
         '/image': (context) => const ImagePage(),
-        '/button': (context) => const ButtonPage()
+        '/button': (context) => const ButtonPage(),
+        '/input': (context) => const InputPage(),
       },
     );
   }
