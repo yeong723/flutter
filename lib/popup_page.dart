@@ -12,28 +12,31 @@ class _PopupPageState extends State<PopupPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("팝업 페이지")
+        title: const Text('팝업 페이지'),
       ),
       body: Center(
         child: TextButton(
-            onPressed: () {
+            onPressed: (){
               showDialog(
                   context: context,
                   builder: (BuildContext con) {
                     return AlertDialog(
                       title: const Text("Dialog Title"),
                       content: const Text("Dialog content"),
-                      actions: [
+                      actions:[
                         TextButton(
-                            onPressed: () => Navigator.of(context).pop(),
-                            child: const Text("Close"))
+                          onPressed: () => Navigator.of(context).pop(),
+                          child: const Text("Cloase"),
+                        )
                       ],
                     );
                   }
               );
             },
-            child: const Text("팝업 버튼")),
+            child: const Text("팝업버튼")),
       ),
     );
   }
 }
+
+

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'drawer.dart';
+import 'package:untitled/drawer.dart';
 
 class SettingPage extends StatelessWidget {
   const SettingPage({super.key});

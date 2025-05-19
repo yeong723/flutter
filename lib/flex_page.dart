@@ -21,17 +21,14 @@ class _FlexPageState extends State<FlexPage> {
               child: Container(
                 color: Colors.lightBlue,
                 height: 200,
-              ),
-          ),
+              )),
           Flexible(
-            flex: 2,
+              flex: 1,
               child: Container(
                 color: Colors.yellow,
-              )
-          )
+              ))
         ],
       ),
     );
   }
 }
-
